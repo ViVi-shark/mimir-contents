@@ -1,0 +1,32 @@
+@@title: Mimir リリースノート
+@Author: ViVi
+@tag: Mimir
+
+# Version 1.1.0.0 (2022-09-27)
+
+## Requirements
+
+* __PHP の必要バージョンが 8.0 以上になりました__。
+
+## Features
+
+* [オーサーごとのコンテンツ一覧画面](https://github.com/ViVi-shark/mimir#%E3%82%B3%E3%83%B3%E3%83%86%E3%83%B3%E3%83%84%E4%B8%80%E8%A6%A7)が追加されました。
+
+## Experimental
+
+* [行を無効化する記法](https://s-ammit.sakura.ne.jp/mimir/doc/abysshark/Mimir%E8%A8%98%E6%B3%95/%E5%AE%9F%E9%A8%93%E7%9A%84%E6%A9%9F%E8%83%BD%E3%81%82%E3%82%8A/#3759c71b011b02554444aa21877e5975)が追加されました。
+* [段落を中央揃えにする記法](https://s-ammit.sakura.ne.jp/mimir/doc/abysshark/Mimir%E8%A8%98%E6%B3%95/%E5%AE%9F%E9%A8%93%E7%9A%84%E6%A9%9F%E8%83%BD%E3%81%82%E3%82%8A/#ff1be78d6697e64ca9e34840e40d6dcb)が追加されました。
+* [Markdown 形式で出力する機能](https://github.com/ViVi-shark/mimir#markdown-%E5%BD%A2%E5%BC%8F%E3%81%A7%E3%81%AE%E5%87%BA%E5%8A%9B)が追加されました。
+
+## Fixes
+
+* ハイパーリンク記法とルビ記法が混合したとき、正しくパースされない不具合を修正しました。（これにともない、[ルビつきの見出しへの内部ハイパーリンク記法の仕様](https://s-ammit.sakura.ne.jp/mimir/doc/abysshark/Mimir%E8%A8%98%E6%B3%95/%E5%AE%9F%E9%A8%93%E7%9A%84%E6%A9%9F%E8%83%BD%E3%81%AA%E3%81%97/#73ab9daf3e2a894e6314eac049160dc9)を定めました）
+
+## Improvements
+
+* README の文面が改善されました。
+* 実行パフォーマンスがわずかに改善されました。
+
+# Version 1.0.0.0 (2022-09-13)
+
+{{align: center}}クローズドベータテスト開始
