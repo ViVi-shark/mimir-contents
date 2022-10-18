@@ -2,6 +2,17 @@
 @Author: ViVi
 @tag: Mimir
 
+# Version 1.1.1.0 (2022-10-18)
+
+## Features
+
+* スマートフォン（などの画面幅の狭い）環境で目次を利用できるようになりました。
+
+## Fixes
+
+* Composer が正常に動作しない問題に対処しました。
+* 註記で CAUTION を指定したときに正常に動作しない不具合を修正しました。
+
 # Version 1.1.0.0 (2022-09-27)
 
 ## Requirements
